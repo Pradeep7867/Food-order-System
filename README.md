@@ -7,7 +7,24 @@ This is a **console-based food ordering system** implemented in **Java** using t
 ---
 
 ## 📂 Project Structure
-📦 FoodOrderingSystem │── 📁 src │ ├── 📁 com.foodorderingsystem │ │ ├── 📁 controller │ │ │ ├── FoodOrderingController.java │ │ ├── 📁 model │ │ │ ├── Order.java │ │ │ ├── User.java │ │ ├── 📁 service │ │ │ ├── OrderService.java │ │ │ ├── RestaurantService.java │ │ ├── 📁 strategy │ │ │ ├── LowestCostStrategy.java │ │ ├── App.java │── 📄 README.md │── 📄 .gitignore │── 📄 pom.xml (If using Maven) │── 📄 build.gradle (If using Gradle)
+📦 FoodOrderingSystem
+│── 📁 src
+│   ├── 📁 com.foodorderingsystem
+│   │   ├── 📁 controller
+│   │   │   ├── FoodOrderingController.java
+│   │   ├── 📁 model
+│   │   │   ├── Order.java
+│   │   │   ├── User.java
+│   │   ├── 📁 service
+│   │   │   ├── OrderService.java
+│   │   │   ├── RestaurantService.java
+│   │   ├── 📁 strategy
+│   │   │   ├── LowestCostStrategy.java
+│   │   ├── App.java
+│── 📄 README.md
+│── 📄 .gitignore
+│── 📄 pom.xml (If using Maven)
+│── 📄 build.gradle (If using Gradle)
 ---
 
 ## 🛠 Prerequisites
@@ -21,16 +38,16 @@ Before running this project, ensure you have:
 
 ### 
 
-**1️⃣ Clone the Repository**
+**Clone the Repository**
 ```sh
 git clone https://github.com/Pradeep7867/Food-order-System.git
 cd FoodOrderingSystem
 
-2️⃣ Compile the Java Files
+* Compile the Java Files
 javac -d out -sourcepath src src/com/foodorderingsystem/App.java
 
 
-3️⃣ Run the Application
+* Run the Application
 java -cp out com.foodorderingsystem.App
 
 
