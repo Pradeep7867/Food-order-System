@@ -4,29 +4,6 @@
 ## 📌 Overview
 This is a **console-based food ordering system** implemented in **Java** using the **MVC architecture**. It allows users to place orders, manage restaurants, and process orders efficiently.  
 
----
-
-## 📂 Project Structure
-📦 FoodOrderingSystem
-│── 📁 src
-│   ├── 📁 com.foodorderingsystem
-│   │   ├── 📁 controller
-│   │   │   ├── FoodOrderingController.java
-│   │   ├── 📁 model
-│   │   │   ├── Order.java
-│   │   │   ├── User.java
-│   │   ├── 📁 service
-│   │   │   ├── OrderService.java
-│   │   │   ├── RestaurantService.java
-│   │   ├── 📁 strategy
-│   │   │   ├── LowestCostStrategy.java
-│   │   ├── App.java
-│── 📄 README.md
-│── 📄 .gitignore
-│── 📄 pom.xml (If using Maven)
-│── 📄 build.gradle (If using Gradle)
----
-
 ## 🛠 Prerequisites
 Before running this project, ensure you have:
 - **Java 17+** installed 👉 [Download Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)  
