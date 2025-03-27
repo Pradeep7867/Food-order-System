@@ -7,25 +7,7 @@ This is a **console-based food ordering system** implemented in **Java** using t
 ---
 
 ## 📂 Project Structure
-📦 FoodOrderingSystem
-│── 📁 src
-│   ├── 📁 com.foodorderingsystem
-│   │   ├── 📁 controller
-│   │   │   ├── FoodOrderingController.java
-│   │   ├── 📁 model
-│   │   │   ├── Order.java
-│   │   │   ├── User.java
-│   │   ├── 📁 service
-│   │   │   ├── OrderService.java
-│   │   │   ├── RestaurantService.java
-│   │   ├── 📁 strategy
-│   │   │   ├── LowestCostStrategy.java
-│   │   ├── App.java
-│── 📄 README.md
-│── 📄 .gitignore
-│── 📄 pom.xml (If using Maven)
-│── 📄 build.gradle (If using Gradle)
-
+📦 FoodOrderingSystem │── 📁 src │ ├── 📁 com.foodorderingsystem │ │ ├── 📁 controller │ │ │ ├── FoodOrderingController.java │ │ ├── 📁 model │ │ │ ├── Order.java │ │ │ ├── User.java │ │ ├── 📁 service │ │ │ ├── OrderService.java │ │ │ ├── RestaurantService.java │ │ ├── 📁 strategy │ │ │ ├── LowestCostStrategy.java │ │ ├── App.java │── 📄 README.md │── 📄 .gitignore │── 📄 pom.xml (If using Maven) │── 📄 build.gradle (If using Gradle)
 ---
 
 ## 🛠 Prerequisites
